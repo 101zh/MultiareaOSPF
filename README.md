@@ -1,7 +1,19 @@
 # Multiarea OSPF Configuration with IPv4 & IPv6
+
 ## Contents
+
 ## Background
+
 ## Topology
+
+### <center>IPv4 Topology</center>
+
+![IPv4 Topology Image](Images\IPv4.Topology.png)
+
+### <center>IPv6 Topology</center>
+
+![IPv4 Topology Image](Images\IPv6.Topology.png)
+
 ## Address Table
 
 |Device Name|Interface|IPv6 Address         |IPv4 Address|IPv4 Subnet Mask|
