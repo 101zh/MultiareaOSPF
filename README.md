@@ -6,6 +6,9 @@
 
 ## Topology
 
+These are the topologies for both IPv4 and IPv6, each link is labeled with the network number and subnet mask of the link. Then each interface is labeled with the 4th octet of the usable IP address within the subnet of that link.\
+Additionally, the PCs can have any IP that is within the subnet of the link that they are on. **DHCP is not setup**.
+
 ### <center>IPv4 Topology</center>
 
 ![IPv4 Topology Image](Images\IPv4.Topology.png)
