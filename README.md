@@ -4,6 +4,16 @@
 
 ## Background
 
+### Open Shortest Path First (OSPF)
+
+When a PC tries to send a packet of information to a destination on the internet, if a router doesn’t know where to send that packet the router will kill it. The first and easy solution to this problem would be to manually enter in which way a router should send a packet based on the destination address. But this causes another problem: the number of hours of labor to manually enter in each destination on each router would be many. Here’s where **Open Shortest Path First (OSPF)** comes in to help.\
+OSPF is a routing protocol that gathers data on where routers are and the network addresses between routers. This allows OSPF to make a topology of the network, which enables OSPF to create a table of routes to each network. This makes it easier for routes to be set up because all a router needs to do to receive these routes is to advertise its own addresses to take part in OSPF.
+
+### Multilayer Switches
+
+A multilayer switch is a switch that can also be used as a router. There isn’t much of a difference between a multilayer switch and a router, except the fact that a multilayer switch can also send data on a layer 2 network. In short, a multilayer switch has both the functions of a switch and a router.
+
+
 ## Topology
 
 These are the topologies for both IPv4 and IPv6, each link is labeled with the network number and subnet mask of the link. Then each interface is labeled with the 4th octet of the usable IP address within the subnet of that link.\
