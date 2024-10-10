@@ -33,3 +33,8 @@ Additionally, the PCs can have any IP that is within the subnet of the link that
 |S1         |F0/2     |2001:db8:acad:c::3/64|192.168.2.3 |255.255.255.0   |
 
 ## Device Overview
+
+This Topology Consists of...
+
+- Five 4321 routers running Cisco IOS XE Software, Version 16.9 Universal K9
+- One Cisco 3560 POE-38 running C3560-IPSERVICESK9-M Version 12.2(44)SE5
