@@ -17,6 +17,8 @@
 
 ## Background
 
+This is section is background info on key concept/parts of the configuration. It is directed an audience that knows some networking, but their knowledge is limited.
+
 ### Open Shortest Path First (OSPF)
 
 When a PC tries to send a packet of information to a destination on the internet, if a router doesn’t know where to send that packet the router will kill it. The first and easy solution to this problem would be to manually enter in which way a router should send a packet based on the destination address. But this causes another problem: the number of hours of labor to manually enter in each destination on each router would be many. Here’s where **Open Shortest Path First (OSPF)** comes in to help.\
