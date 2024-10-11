@@ -58,7 +58,7 @@ Additionally, the PCs can have any IP that is within the subnet of the link that
 |R3         |G0/0/0   |2001:db8:acad:a::2/64|192.168.0.2 |255.255.255.0   |
 |R3         |G0/0/1   |2001:db8:acad:d::1/64|192.168.3.1 |255.255.255.0   |
 |R5         |G0/0/0   |2001:db8:acad:c::2/64|192.168.2.2 |255.255.255.0   |
-|R5         |G0/0/1   |2001:db8:acad:f::1/64|192.168.30.1|255.255.255.0   |
+|R5         |G0/0/1   |2001:db8:acad:f::10/64|192.168.30.1|255.255.255.0   |
 |S1         |F0/1     |2001:db8:acad:d::2/64|192.168.3.2 |255.255.255.0   |
 |S1         |F0/2     |2001:db8:acad:c::3/64|192.168.2.3 |255.255.255.0   |
 
@@ -90,16 +90,16 @@ Approximate round trip times in milli-seconds:
 ## ICMPv6 Ping Across Network
 
 ```text
-C:\>ping 2001:db8:acad:f::1
+C:\>ping 2001:db8:acad:f::10
 
-Pinging 2001:db8:acad:f::1 with 32 bytes of data:
+Pinging 2001:db8:acad:f::10 with 32 bytes of data:
 
-Reply from 2001:DB8:ACAD:F::1: bytes=32 time<1ms TTL=255
-Reply from 2001:DB8:ACAD:F::1: bytes=32 time<1ms TTL=255
-Reply from 2001:DB8:ACAD:F::1: bytes=32 time<1ms TTL=255
-Reply from 2001:DB8:ACAD:F::1: bytes=32 time<1ms TTL=255
+Reply from 2001:DB8:ACAD:F::10: bytes=32 time<1ms TTL=255
+Reply from 2001:DB8:ACAD:F::10: bytes=32 time<1ms TTL=255
+Reply from 2001:DB8:ACAD:F::10: bytes=32 time<1ms TTL=255
+Reply from 2001:DB8:ACAD:F::10: bytes=32 time<1ms TTL=255
 
-Ping statistics for 2001:DB8:ACAD:F::1:
+Ping statistics for 2001:DB8:ACAD:F::10:
     Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
 Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 0ms, Average = 0ms
