@@ -3,22 +3,23 @@
 ## Contents
 
 1. [**Purpose**](#purpose)
-1. [**Background**](#background)
-    1. [**Open Shortest Path First (OSPF)**](#open-shortest-path-first-ospf)
-    2. [**MultiLayer Swithches**](#multilayer-switches)
-2. [**Topology**](#topology)
-    1. [**IPv4 Topology**](#ipv4-topology)
-    2. [**IPv6 Topology**](#ipv6-topology)
-3. [**Address Table**](#address-table)
-4. [**Device Overview**](#device-overview)
-5. [**ICMPv4 Ping Across Network**](#icmpv4-ping-across-network)
-6. [**ICMPv6 Ping Across Network**](#icmpv6-ping-across-network)
-7. [**IPv4 Routing Table**](#ipv4-topology)
-8. [**IPv6 Routing Table**](#ipv6-topology)
+2. [**Background**](#background)
+     1. [**Open Shortest Path First (OSPF)**](#open-shortest-path-first-ospf)
+     2. [**MultiLayer Swithches**](#multilayer-switches)
+3. [**Topology**](#topology)
+     1. [**IPv4 Topology**](#ipv4-topology)
+     2. [**IPv6 Topology**](#ipv6-topology)
+4. [**Address Table**](#address-table)
+5. [**Device Overview**](#device-overview)
+6. [**ICMPv4 Ping Across Network**](#icmpv4-ping-across-network)
+7. [**ICMPv6 Ping Across Network**](#icmpv6-ping-across-network)
+8. [**IPv4 Routing Table**](#ipv4-topology)
+9. [**IPv6 Routing Table**](#ipv6-topology)
 
 ## Purpose
 
-This lab's purpose is to create a multiarea OSPF network with at least 3 areas, 2 routers in each area, and one multilayer switch between 2 areas. This lab requires knowledge on how to create subnets for networks, advertise interfaces for OSPF, and connect links between devices. Additionally the ability to write network statements using wildcard masks is also needed.
+This lab's purpose is to create a multiarea OSPF network with at least 3 areas, 2 routers in each area, and one multilayer switch between 2 areas. This lab requires knowledge on how to create subnets for networks, advertise interfaces for OSPF, and connect links between devices. Additionally the ability to write network statements using wildcard masks is also needed.\
+This lab is a demonstration of using multiarea OSPF, which is a common networking scheme. Although this specific topology lacks the redundancy that a network should have, it is just used to demonstrate the basic configuration of multiarea OSPF..
 
 ## Background
 
@@ -32,7 +33,6 @@ OSPF is a routing protocol that gathers data on where routers are and the networ
 ### Multilayer Switches
 
 A multilayer switch is a switch that can also be used as a router. There isn’t much of a difference between a multilayer switch and a router, except the fact that a multilayer switch can also send data on a layer 2 network. In short, a multilayer switch has both the functions of a switch and a router.
-
 
 ## Topology
 
