@@ -2,6 +2,7 @@
 
 ## Contents
 
+1. [**Purpose**](#purpose)
 1. [**Background**](#background)
     1. [**Open Shortest Path First (OSPF)**](#open-shortest-path-first-ospf)
     2. [**MultiLayer Swithches**](#multilayer-switches)
@@ -14,6 +15,10 @@
 6. [**ICMPv6 Ping Across Network**](#icmpv6-ping-across-network)
 7. [**IPv4 Routing Table**](#ipv4-topology)
 8. [**IPv6 Routing Table**](#ipv6-topology)
+
+## Purpose
+
+This lab's purpose is to create a multiarea OSPF network with at least 3 areas, 2 routers in each area, and one multilayer switch between 2 areas. This lab requires knowledge on how to create subnets for networks, advertise interfaces for OSPF, and connect links between devices. Additionally the ability to write network statements using wildcard masks is also needed.
 
 ## Background
 
